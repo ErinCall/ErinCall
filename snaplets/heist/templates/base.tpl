@@ -1,6 +1,6 @@
 <html>
   <head>
-    <title>Snap web server</title>
+    <title>Andrew Lorente dot com</title>
     <link rel="stylesheet" type="text/css" href="/screen.css"/>
   </head>
   <body>
