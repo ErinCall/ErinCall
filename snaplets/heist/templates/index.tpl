@@ -1,4 +1,5 @@
 <apply template="base">
+  <bind tag="page-title">Professional Software Deleter</bind>
   <article class="container-fluid">
     <div class="col-xs-12">
       <h3>

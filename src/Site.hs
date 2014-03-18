@@ -10,17 +10,21 @@ module Site
 
 ------------------------------------------------------------------------------
 import           Data.ByteString (ByteString)
+import           Snap.Core
 import           Snap.Snaplet
 import           Snap.Snaplet.Heist
 import           Snap.Util.FileServe
 ------------------------------------------------------------------------------
 import           Application
 
-------------------------------------------------------------------------------
--- | The application's routes.
+resume :: Handler App App ()
+resume = method GET $ render "resume"
+
 routes :: [(ByteString, Handler App App ())]
-routes = [ ("",          serveDirectory "static")
+routes = [ ("/resume",   resume)
+         , ("",          serveDirectory "static")
          ]
+
 
 ------------------------------------------------------------------------------
 -- | The application initializer.
