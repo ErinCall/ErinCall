@@ -31,6 +31,10 @@ a {
    color: #000000;
 }
 
+a:active {
+   color: #000000;
+}
+
 a:hover {
    color: #000000;
    text-decoration: none;
@@ -40,8 +44,28 @@ header {
    margin: -10px;
    min-height: 145px; /* The height of header.png, plus 1px for the border */
    border-bottom: 1px solid black;
+   font-family: Georgia, Times New Roman, serif;
 }
 
 body {
    background-color: #DAEFD6;
+}
+
+article {
+   margin-bottom: 50px;
+}
+
+footer {
+   position: fixed;
+   bottom: 0;
+   left: 0;
+   right: 0;
+   height: 50px;
+   padding-left: 10%;
+   padding-right: 10%;
+   background-color: #DAEFD6;
+}
+
+footer div {
+   border-top: 1px solid black;
 }

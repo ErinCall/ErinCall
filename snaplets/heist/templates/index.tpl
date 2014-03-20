@@ -6,8 +6,6 @@
         You've reached my homepage. Congratulations! A world of wonder awaits you. Check out my various pages and projects below.
       </h3>
     </div>
-  </article>
-  <article class="container-fluid">
 
     <apply template="project">
       <bind tag="name">Blog</bind>
