@@ -10,6 +10,30 @@
   <article class="container-fluid">
 
     <apply template="project">
+      <bind tag="name">Blog</bind>
+      <bind tag="description">
+        A blog where I write about things you might find interesting.
+      </bind>
+      <bind tag="link">http://blog.andrewlorente.com</bind>
+    </apply>
+
+    <apply template="project">
+      <bind tag="name">Radlibs</bind>
+      <bind tag="description">
+        A ridiculous recursive-text-substitution engine.
+      </bind>
+      <bind tag="link">http://www.radlibs.info</bind>
+    </apply>
+
+    <apply template="project">
+      <bind tag="name">Catsnap</bind>
+      <bind tag="description">
+        My photo-management tool. Something of a work-in-progress.
+      </bind>
+      <bind tag="link">http://catsnap.andrewlorente.com</bind>
+    </apply>
+
+    <apply template="project">
       <bind tag="name">Resume</bind>
       <bind tag="description">
         A bit of information about me, of particular interest if you're looking to hire someone.
