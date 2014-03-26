@@ -34,7 +34,7 @@
     <footer>
       <div>
         Site by Andrew Lorente, of course. All content is <a href="https://creativecommons.org/licenses/by-sa/4.0/">Licensed Creative Commons Share-Alike.</a>
-        <a href="http://validator.w3.org/check?uri=referer"><i class="fa fa-html5"></i></a>
+        <a href="http://validator.w3.org/check?uri=${currentPath}"><i class="fa fa-html5"></i></a>
       </div>
     </footer>
     <script src="js/jquery-2.1.0.min.js"></script>
