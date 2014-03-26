@@ -3,16 +3,16 @@
   <head>
     <meta charset="utf-8">
     <title><page-title/></title>
-    <link href="/css/bootstrap.min.css" rel="stylesheet" type="text/css">
-    <link href="/css/font-awesome.min.css" rel="stylesheet" type="text/css">
-    <link href="/screen.css" rel="stylesheet" type="text/css" media="screen">
-    <link href="/print.css" rel="stylesheet" type="text/css" media="print">
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="/static/css/screen.css" rel="stylesheet" type="text/css" media="screen">
+    <link href="/static/css/print.css" rel="stylesheet" type="text/css" media="print">
   </head>
   <body>
     <div class="content">
       <header>
         <a href="/">
-          <img src="/images/header.png" alt="Andrew Lorente" class="header-image">
+          <img src="/static/images/header.png" alt="Andrew Lorente" class="header-image">
           <h1>
             Andrew Lorente
           </h1>
@@ -37,7 +37,7 @@
         <a href="http://validator.w3.org/check?uri=${currentPath}"><i class="fa fa-html5"></i></a>
       </div>
     </footer>
-    <script src="js/jquery-2.1.0.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
+    <script src="/static/js/jquery-2.1.0.min.js"></script>
+    <script src="/static/js/bootstrap.min.js"></script>
   </body>
 </html>

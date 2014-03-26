@@ -28,8 +28,8 @@ index = method GET $ render "index"
 
 routes :: [(ByteString, Handler App App ())]
 routes = [ ("/resume", resume)
-         , ("/",       (ifTop index))
-         , ("",        serveDirectory "static")
+         , ("/",       ifTop index)
+         , ("/static", serveDirectory "static")
          ]
 
 ------------------------------------------------------------------------------
