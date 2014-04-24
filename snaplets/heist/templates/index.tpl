@@ -39,5 +39,13 @@
       <bind tag="link">/resume</bind>
     </apply>
 
+    <apply template="project">
+      <bind tag="name">Small Languages</bind>
+      <bind tag="description">
+        A presentation I gave at PDXPython, on building parsers.
+      </bind>
+      <bind tag="link">/small_languages</bind>
+    </apply>
+
   </article>
 </apply>

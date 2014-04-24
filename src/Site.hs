@@ -26,8 +26,12 @@ resume = method GET $ render "resume"
 index :: Handler App App ()
 index = method GET $ render "index"
 
+smallLanguages :: Handler App App ()
+smallLanguages = method GET $ render "small_languages"
+
 routes :: [(ByteString, Handler App App ())]
 routes = [ ("/resume", resume)
+         , ("/small_languages", smallLanguages)
          , ("/",       ifTop index)
          , ("/static", serveDirectory "static")
          ]
