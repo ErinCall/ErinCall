@@ -16,6 +16,14 @@
     </apply>
 
     <apply template="project">
+      <bind tag="name">Gitlab</bind>
+      <bind tag="description">
+        An index of the source code for my software projects, including this website.
+      </bind>
+      <bind tag="link">https://git.andrewlorente.com</bind>
+    </apply>
+
+    <apply template="project">
       <bind tag="name">Radlibs</bind>
       <bind tag="description">
         A ridiculous recursive-text-substitution engine.
