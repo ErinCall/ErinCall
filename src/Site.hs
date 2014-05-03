@@ -19,7 +19,7 @@ import           Heist
 import           Snap.Util.FileServe
 ------------------------------------------------------------------------------
 import           Application
-import           Site.Login
+import           Site.Login (showLogin, doLogin, logout)
 import           Splices
 
 resume :: Handler App App ()
@@ -36,6 +36,7 @@ routes = [ ("/resume",          resume)
          , ("/small_languages", smallLanguages)
          , ("/login",           showLogin)
          , ("/login",           doLogin)
+         , ("/logout",          logout)
          , ("/",                ifTop index)
          , ("/static",          serveDirectory "static")
          ]

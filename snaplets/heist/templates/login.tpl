@@ -4,6 +4,7 @@
   <article class="container-fluid">
     <div class="row">
       <form action="/login" method="post" name="login" id="login" autocomplete="off">
+        <info/>
         <error/>
         <section class="col-xs-12">
           <h2>If you're me, enter your passphrase here to prove it.</h2>
