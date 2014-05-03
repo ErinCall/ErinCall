@@ -12,6 +12,8 @@ def deploy(app):
 
     execute(checkout, app, release_dir, hosts=apps[app]['hosts'])
     execute(apps[app]['build'], app, release_dir, hosts=apps[app]['hosts'])
+    if 'extra' in apps[app]:
+        execute(apps[app]['extra'], app, release_dir, hosts=apps[app]['hosts'])
     execute(restart, app, hosts=['alorente@andrewlorente.com'])
 
 def checkout(app, release_dir):
@@ -34,6 +36,10 @@ def build_python(app, release_dir):
         run("Env/bin/python setup.py develop")
     run("ln -nfs {0} /u/apps/{1}/current".format(release_dir, app))
 
+def link_session_key(app, release_dir):
+    run("ln -nfs /u/apps/{0}/shared/session_key.txt "
+        "{1}/session_key.txt".format(app, release_dir))
+
 def restart(app):
     sudo("initctl restart " + app)
 
@@ -49,6 +55,7 @@ apps = {
     'andrewlorente': {
         'build': build_haskell,
         'hosts': ['andrewlorente@andrewlorente.com'],
+        'extra': link_session_key,
     },
     'catsnap': {
         'build': build_python,

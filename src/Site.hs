@@ -13,11 +13,13 @@ import           Data.ByteString (ByteString)
 import           Data.Monoid
 import           Snap.Core
 import           Snap.Snaplet
-import           Snap.Snaplet.Heist.Compiled
+import           Snap.Snaplet.Heist.Interpreted
+import           Snap.Snaplet.Session.Backends.CookieSession (initCookieSessionManager)
 import           Heist
 import           Snap.Util.FileServe
 ------------------------------------------------------------------------------
 import           Application
+import           Site.Login
 import           Splices
 
 resume :: Handler App App ()
@@ -30,21 +32,25 @@ smallLanguages :: Handler App App ()
 smallLanguages = method GET $ render "small_languages"
 
 routes :: [(ByteString, Handler App App ())]
-routes = [ ("/resume", resume)
+routes = [ ("/resume",          resume)
          , ("/small_languages", smallLanguages)
-         , ("/",       ifTop index)
-         , ("/static", serveDirectory "static")
+         , ("/login",           showLogin)
+         , ("/login",           doLogin)
+         , ("/",                ifTop index)
+         , ("/static",          serveDirectory "static")
          ]
 
 ------------------------------------------------------------------------------
 -- | The application initializer.
 app :: SnapletInit App App
 app = makeSnaplet "andrewlorente" "My wubsite" Nothing $ do
+    s <- nestSnaplet "sess" sess $
+            initCookieSessionManager "session_key.txt" "session" (Just (60 * 60 * 24))
     let config = mempty {
-        hcCompiledSplices = "currentPath" ## currentPath
+        hcInterpretedSplices = "currentPath" ## currentPath
       }
     h <- nestSnaplet "heist" heist $ heistInit "templates"
     addConfig h config
     addRoutes routes
-    return $ App h
+    return $ App h s
 
