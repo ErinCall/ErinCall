@@ -15,6 +15,7 @@ import           Heist                          ((##))
 import           Heist.SpliceAPI                (Splices)
 import qualified Heist.Interpreted              as I
 import           Snap.Core                      (method, Method(..), getParam, redirect)
+import           Snap.Extras.CSRF               (handleCSRF)
 import           Snap.Snaplet                   (Handler, with)
 import           Snap.Snaplet.Heist.Interpreted (render, renderWithSplices)
 import           Snap.Snaplet.Session           (commitSession, setInSession, getFromSession, deleteFromSession)
@@ -30,17 +31,19 @@ showLogin = method GET $ do
 
 doLogin :: Handler App App ()
 doLogin = method POST $ do
+    handleCSRF sess (err "CSRF token wasn't correct.")
     mPassphrase <- getParam "passphrase"
     case mPassphrase of
         Just passphrase | check passphrase -> do
                             with sess $ setInSession "identity" "Andrew"
                             with sess $ commitSession
                             redirect "/login"
-                        | otherwise -> renderWithSplices "login" $ errorSplice "Passphrase wasn't correct."
-        _ -> renderWithSplices "login" $ errorSplice "Passphrase is required."
+                        | otherwise -> err "Passphrase wasn't correct."
+        _ -> err "Passphrase is required."
   where
     check passphrase = bcrypt passphrase salt == myHashedPassword
     salt = fromJust $ packBSalt myHashedPassword
+    err msg = renderWithSplices "login" $ errorSplice msg
 
 logout :: Handler App App ()
 logout = method GET $ do

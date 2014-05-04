@@ -30,6 +30,7 @@ Executable andrewlorente
     mtl                       >= 2       && < 3,
     snap                      >= 0.13    && < 0.14,
     snap-core                 >= 0.9     && < 0.11,
+    snap-extras               >= 0.7     && < 0.8,
     snap-server               >= 0.9     && < 0.11,
     snap-loader-static        >= 0.9     && < 0.10,
     text                      >= 0.11    && < 1.2,
