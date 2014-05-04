@@ -40,6 +40,9 @@ def link_session_key(app, release_dir):
     run("ln -nfs /u/apps/{0}/shared/session_key.txt "
         "{1}/session_key.txt".format(app, release_dir))
 
+def dotenv(app, release_dir):
+    run("ln -nfs /u/apps/{0}/shared/.env {1}/.env".format(app, release_dir))
+
 def restart(app):
     sudo("initctl restart " + app)
 
@@ -60,6 +63,7 @@ apps = {
     'catsnap': {
         'build': build_python,
         'hosts': ['catsnap@andrewlorente.com'],
+        'extra': dotenv,
     },
 }
 
