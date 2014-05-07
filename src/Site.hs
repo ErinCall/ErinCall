@@ -36,6 +36,7 @@ smallLanguages = method GET $ render "small_languages"
 routes :: [(ByteString, Handler App App ())]
 routes = [ ("/resume",          resume)
          , ("/small_languages", smallLanguages)
+         , ("/robots.txt",      serveFile "static/robots.txt")
          , ("/login",           showLogin)
          , ("/login",           doLogin)
          , ("/logout",          logout)
