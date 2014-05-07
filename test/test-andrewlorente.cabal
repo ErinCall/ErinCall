@@ -1,0 +1,39 @@
+Name:                test-andrewlorente
+Version:             0.1
+Synopsis:            Tests for andrewlorente
+Description:         Various tests
+License:             MIT
+Author:              Andrew Lorente
+Maintainer:          hello@andrewlorente.com
+Stability:           Experimental
+Category:            Tests
+Build-type:          Simple
+Cabal-version:       >=1.2
+
+Executable test-andrewlorente
+  main-is: Test.hs
+  hs-source-dirs: ., ../src
+
+  ghc-options: -Wall -fno-warn-orphans -fno-warn-unused-do-bind -O0
+
+  Build-depends:
+    base,
+    bytestring,
+    containers,
+    haskell-bcrypt,
+    heist,
+    HTTP,
+    lens,
+    network,
+    snap,
+    snap-core,
+    snap-extras,
+    snaplet-postgresql-simple,
+    text,
+    transformers,
+    utf8-string,
+    xml,
+
+    HUnit,
+    test-framework-hunit,
+    test-framework
