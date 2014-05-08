@@ -43,6 +43,10 @@
         <li>Developed custom PostgreSQL aggregates, allowing granular scrutiny of enormous amounts of data while conserving disk space.</li>
         <li>Developed a system for projecting users&#8217; future usage patterns.</li>
       </ul>
+
+      <h3>EDUCATION</h3>
+      <h4>Bachelor of Arts, Computer Science</h4>
+      <h5>Willamette University, 2007</h5>
     </div>
   </article>
 </apply>
