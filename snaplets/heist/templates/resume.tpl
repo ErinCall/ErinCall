@@ -14,6 +14,8 @@
         <li>I've used an array of web frameworks, from the full-featured (Rails, Django) to the lightweight (Mason, Flask, Snap, Node).</li>
         <li>In the browser, I'm familiar with JQuery and Underscore; I can work without them as well.</li>
         <li>My database of choice is Postgresql, but I've used Redis for caching and queueing and Zookeeper for live configuration.</li>
+        <li>I've worked extensively with AWS services, particularly S3, EC2, Cloudfront, SES, and Route53.</li>
+        <li>One of the first things I look for when learning a new language is a test framework. To that end, I've used Ruby's Rspec, Mocha, and Minitest, Python's Nosetools and Mock, and Haskell's HUnit and Quickcheck.</li>
         <li>Although server configuration isn't my forte, when I do it I do it right, with configuration tools like Vagrant and Puppet, and deployment tools like Fabric and Capistrano.</li>
       </ul>
 
