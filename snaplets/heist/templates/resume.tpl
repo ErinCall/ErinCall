@@ -8,7 +8,14 @@
       <p>I am a veteran developer with a focus in sustainable, maintainable program design. I am primarily interested in web development and unit testing.</p>
 
       <h3>SKILLSET</h3>
-      <p>I have extensive experience in server-side web development. Most recently, I've been using a lot of Ruby and Haskell, but I have experience with Python, JavaScript, Perl, and other languages. I love git, test-driven development, and reproducible configurations.</p>
+      <p>I have extensive experience in server-side web development. Most recently, I've been using a lot of Ruby and Haskell, but I am fluent and up-to-date on Python and JavaScript as well. I love git, test-driven development, and reproducible configurations.</p>
+      <h4>Technologies</h4>
+      <ul>
+        <li>I've used an array of web frameworks, from the full-featured (Rails, Django) to the lightweight (Mason, Flask, Snap, Node).</li>
+        <li>In the browser, I'm familiar with JQuery and Underscore; I can work without them as well.</li>
+        <li>My database of choice is Postgresql, but I've used Redis for caching and queueing and Zookeeper for live configuration.</li>
+        <li>Although server configuration isn't my forte, when I do it I do it right, with configuration tools like Vagrant and Puppet, and deployment tools like Fabric and Capistrano.</li>
+      </ul>
 
       <h3>EXPERIENCE</h3>
 
