@@ -33,9 +33,13 @@ index = method GET $ render "index"
 smallLanguages :: Handler App App ()
 smallLanguages = method GET $ render "small_languages"
 
+pgp :: Handler App App ()
+pgp = method GET $ render "pgp"
+
 routes :: [(ByteString, Handler App App ())]
 routes = [ ("/resume",          resume)
          , ("/small_languages", smallLanguages)
+         , ("/pgp",             pgp)
          , ("/robots.txt",      serveFile "static/robots.txt")
          , ("/login",           showLogin)
          , ("/login",           doLogin)

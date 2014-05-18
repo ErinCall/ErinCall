@@ -55,5 +55,13 @@
       <bind tag="link">/small_languages</bind>
     </apply>
 
+    <apply template="project">
+      <bind tag="name">PGP Key</bind>
+      <bind tag="description">
+        A public PGP key you can use to tell me secrets (or just play spies).
+      </bind>
+      <bind tag="link">/pgp</bind>
+    </apply>
+
   </article>
 </apply>
