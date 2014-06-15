@@ -2,6 +2,7 @@ from fabric.api import cd, run, sudo, env, execute, task, local
 from datetime import datetime
 
 env.hosts = ['andrewlorente.com']
+
 @task
 def deploy(app):
     if app not in apps.keys():
@@ -29,11 +30,17 @@ def build_haskell(app, release_dir):
         run("cabal build")
     run("ln -nfs {0} /u/apps/{1}/current".format(release_dir, app))
 
-def build_python(app, release_dir):
+def build_python_with_setup(app, release_dir):
+    return build_python(app, release_dir, 'Env/bin/python setup.py develop')
+
+def build_python_with_requirements(app, release_dir):
+    return build_python(app, release_dir, 'Env/bin/pip install -r requirements.txt')
+
+def build_python(app, release_dir, requirements_command):
     with cd(release_dir):
         run("virtualenv Env")
         run("source Env/bin/activate")
-        run("Env/bin/python setup.py develop")
+        run(requirements_command)
     run("ln -nfs {0} /u/apps/{1}/current".format(release_dir, app))
 
 def link_session_key(app, release_dir):
@@ -61,8 +68,13 @@ apps = {
         'extra': link_session_key,
     },
     'catsnap': {
-        'build': build_python,
+        'build': build_python_with_setup,
         'hosts': ['catsnap@andrewlorente.com'],
+        'extra': dotenv,
+    },
+    'identity': {
+        'build': build_python_with_requirements,
+        'hosts': ['identity@andrewlorente.com'],
         'extra': dotenv,
     },
 }
