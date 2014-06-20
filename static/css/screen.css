@@ -17,6 +17,8 @@
    background-color: #F0F0F0;
    border-radius: 15px;
    height: 10em;
+   padding-right: 5%;
+   padding-left: 5%;
 }
 
 .grid-element:hover {
