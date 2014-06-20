@@ -84,3 +84,7 @@ footer {
 footer div {
    border-top: 1px solid black;
 }
+
+iframe {
+   border: 0;
+}

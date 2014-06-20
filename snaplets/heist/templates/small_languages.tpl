@@ -6,9 +6,6 @@
     <iframe src="//player.vimeo.com/video/92805609"
             width="500"
             height="281"
-            frameborder="0"
-            webkitallowfullscreen
-            mozallowfullscreen
             allowfullscreen
     ></iframe>
     <p>I'm sorry about the way the video cuts out in the midst of the Q&amp;A. My camera apparently only records 25 minutes of video at one go. I'm told this is more about tariff categories than technological limits, which is frustrating.</p>
