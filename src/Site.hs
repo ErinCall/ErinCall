@@ -12,16 +12,12 @@ module Site
 import           Data.ByteString (ByteString)
 import           Data.Monoid
 import           Snap.Core
-import           Snap.Extras.CSRF (secureForm)
 import           Snap.Snaplet
 import           Snap.Snaplet.Heist.Interpreted
-import           Snap.Snaplet.Session (csrfToken)
-import           Snap.Snaplet.Session.Backends.CookieSession (initCookieSessionManager)
 import           Heist
 import           Snap.Util.FileServe
 ------------------------------------------------------------------------------
 import           Application
-import           Site.Login (showLogin, doLogin, logout)
 import           Splices
 
 resume :: Handler App App ()
@@ -41,9 +37,6 @@ routes = [ ("/resume",          resume)
          , ("/small_languages", smallLanguages)
          , ("/pgp",             pgp)
          , ("/robots.txt",      serveFile "static/robots.txt")
-         , ("/login",           showLogin)
-         , ("/login",           doLogin)
-         , ("/logout",          logout)
          , ("/",                ifTop index)
          , ("/static",          serveDirectory "static")
          ]
@@ -52,15 +45,12 @@ routes = [ ("/resume",          resume)
 -- | The application initializer.
 app :: SnapletInit App App
 app = makeSnaplet "andrewlorente" "My wubsite" Nothing $ do
-    s <- nestSnaplet "sess" sess $
-            initCookieSessionManager "session_key.txt" "session" (Just (60 * 60 * 24))
     let config = mempty {
         hcInterpretedSplices = do
             "currentPath" ## currentPath
-            "form" ## (secureForm $ with sess csrfToken)
       }
     h <- nestSnaplet "heist" heist $ heistInit "templates"
     addConfig h config
     addRoutes routes
-    return $ App h s
+    return $ App h
 

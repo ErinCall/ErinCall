@@ -9,12 +9,10 @@ module Application where
 import Control.Lens
 import Snap.Snaplet
 import Snap.Snaplet.Heist
-import Snap.Snaplet.Session (SessionManager)
 
 ------------------------------------------------------------------------------
 data App = App
     { _heist :: Snaplet (Heist App)
-    , _sess :: Snaplet SessionManager
     }
 
 makeLenses ''App
