@@ -20,24 +20,16 @@ import           Snap.Util.FileServe
 import           Application
 import           Splices
 
-resume :: Handler App App ()
-resume = method GET $ render "resume"
-
-index :: Handler App App ()
-index = method GET $ render "index"
-
-smallLanguages :: Handler App App ()
-smallLanguages = method GET $ render "small_languages"
-
-pgp :: Handler App App ()
-pgp = method GET $ render "pgp"
+page :: ByteString -> Handler App App ()
+page template = method GET $ render template
 
 routes :: [(ByteString, Handler App App ())]
-routes = [ ("/resume",          resume)
-         , ("/small_languages", smallLanguages)
-         , ("/pgp",             pgp)
+routes = [ ("/resume",          page "resume")
+         , ("/small_languages", page "small_languages")
+         , ("/pgp",             page "pgp")
+         , ("/learning_rust",   page "learning_rust")
          , ("/robots.txt",      serveFile "static/robots.txt")
-         , ("/",                ifTop index)
+         , ("/",                ifTop $ page "index")
          , ("/static",          serveDirectory "static")
          ]
 

@@ -16,6 +16,14 @@
     </apply>
 
     <apply template="project">
+      <bind tag="name">Learning Rust</bind>
+      <bind tag="description">
+        Some friends and I are studying Rust. Join us!
+      </bind>
+      <bind tag="link">/learning_rust</bind>
+    </apply>
+
+    <apply template="project">
       <bind tag="name">Gitlab</bind>
       <bind tag="description">
         An index of the source code for my software projects, including this website.
