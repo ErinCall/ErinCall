@@ -9,3 +9,15 @@ page {
 body * {
   color: black;
 }
+
+span.source {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a[href]:after {
+   content:"" !important;
+}

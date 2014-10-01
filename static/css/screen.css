@@ -42,7 +42,7 @@ a {
    color: #000000;
 }
 
-p a {
+p a, li a {
    text-decoration: underline;
 }
 

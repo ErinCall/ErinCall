@@ -60,12 +60,12 @@
       <h5>Technical lead, October 2013-Present</h5>
       <p>In addition to my mentor work, I led a small team of volunteer developers in writing the new Code Scouts member website.</p>
 
-      <h3>SIDE PROJECTS</h3>
-      <p>I've written several smallish open-source projects in my free time:</p>
+      <h3>OPEN-SOURCE PROJECTS</h3>
+      <p>I've written several open-source projects in my free time:</p>
       <ul>
-        <li>Catsnap is a Python/Flask webapp for simple, self-hosted image sharing.</li>
-        <li>My blog is powered by Bloge, a lightweight engine written in Haskell/Snap.</li>
-        <li>Radlibs is a silly game for generating whimsical English text, also written in Python. It has an IRC-bot-pluggable API client written in JavaScript.</li>
+        <li><a href="https://catsnap.andrewlorente.com">Catsnap</a> is a Python/Flask webapp for simple, self-hosted image sharing. <span class="source">[<a href="https://git.andrewlorente.com/AndrewLorente/Catsnap/tree/master">source</a>]</span></li>
+        <li><a href="https://blog.andrewlorente.com">My blog</a> is powered by Bloge, a lightweight engine written in Haskell/Snap. <span class="source">[<a href="https://git.andrewlorente.com/AndrewLorente/Bloge/tree/master">source</a>]</span></li>
+        <li><a href="http://www.radlibs.info">Radlibs</a> is a silly game for generating whimsical English text, also written in Python. It has an IRC-bot-pluggable API client written in JavaScript. <span class="source">[<a href="https://git.andrewlorente.com/AndrewLorente/radlibs/tree/master">source</a>]</span></li>
       </ul>
 
       <h3>EDUCATION</h3>
