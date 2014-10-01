@@ -16,7 +16,7 @@
         <li>My database of choice is Postgresql, but I've used Redis for caching and queueing and Zookeeper for live configuration.</li>
         <li>I've worked extensively with AWS services, particularly S3, EC2, Cloudfront, SES, and Route53.</li>
         <li>One of the first things I look for when learning a new language is a test framework. To that end, I've used Ruby's Rspec, Mocha, and Minitest, Python's Nosetools and Mock, and Haskell's HUnit and Quickcheck.</li>
-        <li>Although server configuration isn't my forte, when I do it I do it right, with configuration tools like Vagrant and Puppet, and deployment tools like Fabric and Capistrano.</li>
+        <li>I provision my servers with configuration tools like Vagrant and Puppet, and deployment tools like Fabric and Capistrano.</li>
       </ul>
 
       <h3>EXPERIENCE</h3>
@@ -51,6 +51,21 @@
         <li>Extended our test-data setup systems, allowing dramatically faster development and improving readability.</li>
         <li>Developed custom PostgreSQL aggregates, allowing granular scrutiny of enormous amounts of data while conserving disk space.</li>
         <li>Developed a system for projecting users&#8217; future usage patterns.</li>
+      </ul>
+
+      <h3>VOLUNTEER WORK</h3>
+      <h4>Code Scouts</h4>
+      <h5>Mentor, May 2013-Present</h5>
+      <p>Code Scouts is a nonprofit organization aimed at providing learning resources and mentoring to women in technology. As a mentor I work with members to help them find learning projects, develop working code, and prepare for interviews.</p>
+      <h5>Technical lead, October 2013-Present</h5>
+      <p>In addition to my mentor work, I led a small team of volunteer developers in writing the new Code Scouts member website.</p>
+
+      <h3>SIDE PROJECTS</h3>
+      <p>I've written several smallish open-source projects in my free time:</p>
+      <ul>
+        <li>Catsnap is a Python/Flask webapp for simple, self-hosted image sharing.</li>
+        <li>My blog is powered by Bloge, a lightweight engine written in Haskell/Snap.</li>
+        <li>Radlibs is a silly game for generating whimsical English text, also written in Python. It has an IRC-bot-pluggable API client written in JavaScript.</li>
       </ul>
 
       <h3>EDUCATION</h3>
