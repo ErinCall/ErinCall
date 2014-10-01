@@ -50,7 +50,7 @@
     <apply template="project">
       <bind tag="name">Resume</bind>
       <bind tag="description">
-        My professional history (though I'm not really looking to change jobs at this time).
+        My professional history. Particularly interesting if you're looking to hire someone.
       </bind>
       <bind tag="link">/resume</bind>
     </apply>
