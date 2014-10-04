@@ -5,7 +5,7 @@
     <div>
       <h5>hello@andrewlorente.com • 915A NE Roselawn St. Portland Oregon 97211 • 503.508.4419</h5>
 
-      <p>I am a veteran developer with a focus in sustainable, maintainable program design. I am particularly interested in web development and unit testing.</p>
+      <p>I am a veteran developer with a focus in maintainable program design. I am particularly interested in web development and unit testing.</p>
 
       <h3>SKILLSET</h3>
       <p>I have extensive experience in server-side web development. Most recently, I've been using a lot of Ruby and Haskell, but I am fluent and up-to-date on Python and JavaScript as well. I love git, test-driven development, and reproducible configurations.</p>
