@@ -17,7 +17,7 @@
             Andrew Lorente
           </h1>
           <h2>
-            Professional Software Deleter
+            Making Software and Things
           </h2>
         </a>
         <p>
