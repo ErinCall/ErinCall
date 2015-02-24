@@ -5,21 +5,18 @@
     <div>
       <h5>hello@andrewlorente.com • 915A NE Roselawn St. Portland Oregon 97211 • 503.508.4419</h5>
 
-      <p>I am a veteran developer with a focus in maintainable program design. I am particularly interested in web development and unit testing.</p>
+      <p>I am a skilled teacher and veteran developer in web technologies. I love to see students learn and grow, and to guide their "first steps into a larger world."</p>
 
       <h3>SKILLSET</h3>
-      <p>I have extensive experience in server-side web development. Most recently, I've been using a lot of Ruby and Haskell, but I am fluent and up-to-date on Python and JavaScript as well. I love git, test-driven development, and reproducible configurations.</p>
-      <h4>Technologies</h4>
-      <ul>
-        <li>I've used an array of web frameworks, from the full-featured (Rails, Django) to the lightweight (Mason, Flask, Snap, Node).</li>
-        <li>In the browser, I'm familiar with JQuery and Underscore; I can work without them as well.</li>
-        <li>My database of choice is Postgresql, but I've used Redis for caching and queueing and Zookeeper for live configuration.</li>
-        <li>I've worked extensively with AWS services, particularly S3, EC2, Cloudfront, SES, and Route53.</li>
-        <li>One of the first things I look for when learning a new language is a test framework. To that end, I've used Ruby's Rspec, Mocha, and Minitest, Python's Nosetools and Mock, and Haskell's HUnit and Quickcheck.</li>
-        <li>I provision my servers with configuration tools like Vagrant and Puppet, and deployment tools like Fabric and Capistrano.</li>
-      </ul>
+      <p>I have extensive experience in server-side web development. I've developed professionally in server-side Python, Ruby, and Haskell, along with client-side JavaScript. I love git, test-driven development, and reproducible configurations.</p>
 
-      <h3>EXPERIENCE</h3>
+      <h3>TEACHING EXPERIENCE</h3>
+
+      <h4>Portland Code School</h4>
+      <h5>Lead JavaScript Immersion Instructor, January 2015&#8212;present</h5>
+      <p>As the lead instructor in PCS's JavaScript Immersion class, I teach a cohort of a dozen students with varying backgrounds. I teach both server- and client-side programming, with and without frameworks like Express, JQuery, and Angular.
+
+      <h3>DEVELOPMENT EXPERIENCE</h3>
 
       <h4>Janrain</h4>
       <h5>Developer, September 2012&#8212;October 2014</h5>
@@ -55,9 +52,9 @@
 
       <h3>VOLUNTEER WORK</h3>
       <h4>Code Scouts</h4>
-      <h5>Mentor, May 2013-Present</h5>
-      <p>Code Scouts is a nonprofit organization aimed at providing learning resources and mentoring to women in technology. As a mentor I work with members to help them find learning projects, develop working code, and prepare for interviews.</p>
-      <h5>Technical lead, October 2013-Present</h5>
+      <h5>Mentor, May 2013&#8212;December 2014</h5>
+      <p>Code Scouts was a nonprofit organization aimed at providing learning resources and mentoring to women in technology. As a mentor I worked with members to help them find learning projects, develop working code, and prepare for interviews.</p>
+      <h5>Technical lead, October 2013&#8212;December 2014</h5>
       <p>In addition to my mentor work, I led a small team of volunteer developers in writing the new Code Scouts member website.</p>
 
       <h3>OPEN-SOURCE PROJECTS</h3>
