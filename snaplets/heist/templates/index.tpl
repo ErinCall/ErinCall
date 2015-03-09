@@ -16,11 +16,19 @@
     </apply>
 
     <apply template="project">
-      <bind tag="name">Learning Rust</bind>
+      <bind tag="name">Secrets In Source Control</bind>
       <bind tag="description">
-        Some friends and I are studying Rust. Join us!
+        A presentation I gave at the Portland Ansible Meetup, on using the Ansible Vault.
       </bind>
-      <bind tag="link">/learning_rust</bind>
+      <bind tag="link">/secrets_in_source_control</bind>
+    </apply>
+
+    <apply template="project">
+      <bind tag="name">Small Languages</bind>
+      <bind tag="description">
+        A presentation I gave at PDXPython, on building parsers.
+      </bind>
+      <bind tag="link">/small_languages</bind>
     </apply>
 
     <apply template="project">
@@ -56,27 +64,19 @@
     </apply>
 
     <apply template="project">
-      <bind tag="name">Small Languages</bind>
-      <bind tag="description">
-        A presentation I gave at PDXPython, on building parsers.
-      </bind>
-      <bind tag="link">/small_languages</bind>
-    </apply>
-
-    <apply template="project">
-      <bind tag="name">Secrets In Source Control</bind>
-      <bind tag="description">
-        A presentation I gave at the Portland Ansible Meetup, on using the Ansible Vault.
-      </bind>
-      <bind tag="link">/secrets_in_source_control</bind>
-    </apply>
-
-    <apply template="project">
       <bind tag="name">PGP Key</bind>
       <bind tag="description">
         A public PGP key you can use to tell me secrets (or just play spies).
       </bind>
       <bind tag="link">/pgp</bind>
+    </apply>
+
+    <apply template="project">
+      <bind tag="name">Learning Rust</bind>
+      <bind tag="description">
+        Some friends and I are studying Rust. Join us!
+      </bind>
+      <bind tag="link">/learning_rust</bind>
     </apply>
 
   </article>
