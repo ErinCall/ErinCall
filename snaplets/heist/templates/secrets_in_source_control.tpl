@@ -2,7 +2,7 @@
   <bind tag="page-title">Secrets In Source Control</bind>
   <article class="container-fluid">
     <h3>Secrets In Source Control</h3>
-    <p>This is a talk I gave to the Portland Ansible Meetup on 2015-02-26. I talked about how to use the Vault feature of Ansible to encrypt secrets like SSL keys and store them in source control. If you want to follow along with the slides, <a href="https://docs.google.com/presentation/d/1dBHltWfhDuoQV6tg0DJ5RNiNRzQKx1ZUZ1IWFfLmCE4/edit?usp=sharing">they're shared as a Google Docs presentation</a>.</p>
+    <p>This is a talk I gave to the <a href="http://www.meetup.com/Ansible-Portland/">Portland Ansible Meetup</a> on 2015-02-26. I talked about how to use the Vault feature of Ansible to encrypt secrets like SSL keys and store them in source control. If you want to follow along with the slides, <a href="https://docs.google.com/presentation/d/1dBHltWfhDuoQV6tg0DJ5RNiNRzQKx1ZUZ1IWFfLmCE4/edit?usp=sharing">they're shared as a Google Docs presentation</a>.</p>
     <p>You'll want to turn up your speakers, as the audio is fairly quiet.</p>
     <iframe src="//player.vimeo.com/video/121708952"
             width="500"
