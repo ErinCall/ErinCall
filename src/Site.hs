@@ -24,13 +24,14 @@ page :: ByteString -> Handler App App ()
 page template = method GET $ render template
 
 routes :: [(ByteString, Handler App App ())]
-routes = [ ("/resume",          page "resume")
-         , ("/small_languages", page "small_languages")
-         , ("/pgp",             page "pgp")
-         , ("/learning_rust",   page "learning_rust")
-         , ("/robots.txt",      serveFile "static/robots.txt")
-         , ("/",                ifTop $ page "index")
-         , ("/static",          serveDirectory "static")
+routes = [ ("/resume",                    page "resume")
+         , ("/small_languages",           page "small_languages")
+         , ("/secrets_in_source_control", page "secrets_in_source_control")
+         , ("/pgp",                       page "pgp")
+         , ("/learning_rust",             page "learning_rust")
+         , ("/robots.txt",                serveFile "static/robots.txt")
+         , ("/",                          ifTop $ page "index")
+         , ("/static",                    serveDirectory "static")
          ]
 
 ------------------------------------------------------------------------------

@@ -64,6 +64,14 @@
     </apply>
 
     <apply template="project">
+      <bind tag="name">Secrets In Source Control</bind>
+      <bind tag="description">
+        A presentation I gave at the Portland Ansible Meetup, on using the Ansible Vault.
+      </bind>
+      <bind tag="link">/secrets_in_source_control</bind>
+    </apply>
+
+    <apply template="project">
       <bind tag="name">PGP Key</bind>
       <bind tag="description">
         A public PGP key you can use to tell me secrets (or just play spies).
