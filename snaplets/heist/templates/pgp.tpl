@@ -1,5 +1,5 @@
 <apply template="base">
-  <bind tag="page-title">PGP Public Key | Professional Software Deleter</bind>
+  <bind tag="page-title">PGP Public Key | Making Software And Things</bind>
   <article class="container-fluid">
     <h3>PGP Public Key</h3>
     <p><a href="http://www.pgpi.org/">PGP</a> is a public/private-key encryption standard that allows secure communication between trusted parties. I'm not aware that I'm doing anything that requires especial care for security, but if only spies and criminals use encryption, then encryption itself is suspicious. Accordingly, here is my public key (in base-64 encoding):</p>

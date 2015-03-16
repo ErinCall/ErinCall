@@ -1,5 +1,5 @@
 <apply template="base">
-  <bind tag="page-title">Logged In | Professional Software Deleter</bind>
+  <bind tag="page-title">Logged In | Making Software And Things</bind>
 
   <article class="container-fluid">
     <div class="row">
