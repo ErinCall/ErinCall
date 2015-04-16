@@ -12,7 +12,7 @@
       <bind tag="description">
         A blog where I write about things you might find interesting.
       </bind>
-      <bind tag="link">http://blog.andrewlorente.com</bind>
+      <bind tag="link">http://blog.erincall.com</bind>
     </apply>
 
     <apply template="project">
@@ -36,7 +36,7 @@
       <bind tag="description">
         An index of the source code for my software projects, including this website.
       </bind>
-      <bind tag="link">https://git.andrewlorente.com</bind>
+      <bind tag="link">https://git.erincall.com</bind>
     </apply>
 
     <apply template="project">
@@ -52,7 +52,7 @@
       <bind tag="description">
         My photo-management tool. Something of a work-in-progress.
       </bind>
-      <bind tag="link">http://catsnap.andrewlorente.com</bind>
+      <bind tag="link">http://catsnap.erincall.com</bind>
     </apply>
 
     <apply template="project">

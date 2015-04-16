@@ -37,7 +37,7 @@ routes = [ ("/resume",                    page "resume")
 ------------------------------------------------------------------------------
 -- | The application initializer.
 app :: SnapletInit App App
-app = makeSnaplet "andrewlorente" "My wubsite" Nothing $ do
+app = makeSnaplet "erincall" "My wubsite" Nothing $ do
     let config = mempty {
         hcInterpretedSplices = do
             "currentPath" ## currentPath

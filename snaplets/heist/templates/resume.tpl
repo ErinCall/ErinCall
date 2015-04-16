@@ -1,9 +1,9 @@
 <apply template="base">
-  <bind tag="page-title">Resume &#8212; Andrew Lorente</bind>
+  <bind tag="page-title">Resume &#8212; Erin Call</bind>
   <article class="container-fluid">
-    <h3>Andrew Lorente</h3>
+    <h3>Erin Call</h3>
     <div>
-      <h5>hello@andrewlorente.com • 915A NE Roselawn St. Portland Oregon 97211 • 503.508.4419</h5>
+      <h5>hello@erincall.com • 915A NE Roselawn St. Portland Oregon 97211 • 503.508.4419</h5>
 
       <p>I am a skilled teacher and veteran developer in web technologies. I love to see students learn and grow, and to guide their "first steps into a larger world."</p>
 
@@ -60,9 +60,9 @@
       <h3>OPEN-SOURCE PROJECTS</h3>
       <p>I've written several open-source projects in my free time:</p>
       <ul>
-        <li><a href="https://catsnap.andrewlorente.com">Catsnap</a> is a Python/Flask webapp for simple, self-hosted image sharing. <span class="source">[<a href="https://git.andrewlorente.com/AndrewLorente/Catsnap/tree/master">source</a>]</span></li>
-        <li><a href="https://blog.andrewlorente.com">My blog</a> is powered by Bloge, a lightweight engine written in Haskell/Snap. <span class="source">[<a href="https://git.andrewlorente.com/AndrewLorente/Bloge/tree/master">source</a>]</span></li>
-        <li><a href="http://www.radlibs.info">Radlibs</a> is a silly game for generating whimsical English text, also written in Python. It has an IRC-bot-pluggable API client written in JavaScript. <span class="source">[<a href="https://git.andrewlorente.com/AndrewLorente/radlibs/tree/master">source</a>]</span></li>
+        <li><a href="https://catsnap.erincall.com">Catsnap</a> is a Python/Flask webapp for simple, self-hosted image sharing. <span class="source">[<a href="https://git.erincall.com/ErinCall/Catsnap/tree/master">source</a>]</span></li>
+        <li><a href="https://blog.erincall.com">My blog</a> is powered by Bloge, a lightweight engine written in Haskell/Snap. <span class="source">[<a href="https://git.erincall.com/ErinCall/Bloge/tree/master">source</a>]</span></li>
+        <li><a href="http://www.radlibs.info">Radlibs</a> is a silly game for generating whimsical English text, also written in Python. It has an IRC-bot-pluggable API client written in JavaScript. <span class="source">[<a href="https://git.erincall.com/ErinCall/radlibs/tree/master">source</a>]</span></li>
       </ul>
 
       <h3>EDUCATION</h3>
