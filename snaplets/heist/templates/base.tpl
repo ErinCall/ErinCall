@@ -12,13 +12,10 @@
     <div class="content">
       <header>
         <a href="/">
-          <img src="/static/images/header.jpg" alt="Erin Call" class="header-image">
+          <img src="/static/images/header.jpg" alt="A Wood Duck" class="header-image">
           <h1>
             Erin Call
           </h1>
-          <h2>
-            Making Software and Things
-          </h2>
         </a>
         <p>
           <a href="https://twitter.com/erincall" title="twitter"><i class="fa fa-twitter fa-lg"></i></a>

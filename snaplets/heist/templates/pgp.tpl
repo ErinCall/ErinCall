@@ -1,5 +1,5 @@
 <apply template="base">
-  <bind tag="page-title">PGP Public Key | Making Software And Things</bind>
+  <bind tag="page-title">PGP Public Key | Erin Call</bind>
   <article class="container-fluid">
     <h3>PGP Public Key</h3>
     <p><a href="http://www.pgpi.org/">PGP</a> is a public/private-key encryption standard that allows secure communication between trusted parties. I'm not aware that I'm doing anything that requires especial care for security, but if only spies and criminals use encryption, then encryption itself is suspicious. Accordingly, here is my public key (in base-64 encoding):</p>
@@ -34,7 +34,7 @@ IslxGGnLL0B6C/UIFCZ8XJTxrkCWaGZrQKs1MaTXtcvdesVsA4EYvwSLlyrD7Ckb
 yGc=
 =+eO4
 -----END PGP PUBLIC KEY BLOCK-----</pre>
-    <p>You can also <a href="/static/alorente.pub">download the key in a binary format</a>.</p>
+    <p>You can also <a href="/static/ecall.pub">download the key in a binary format</a>.</p>
     <p>You should hesitate to trust a key that you download from a website, even over HTTPS. If you're truly wise/paranoid, you'll get together with me in person to confirm the public key you've retrieved is really mine.</p>
   </article>
 </apply>
