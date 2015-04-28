@@ -71,13 +71,5 @@
       <bind tag="link">/pgp</bind>
     </apply>
 
-    <apply template="project">
-      <bind tag="name">Learning Rust</bind>
-      <bind tag="description">
-        Some friends and I are studying Rust. Join us!
-      </bind>
-      <bind tag="link">/learning_rust</bind>
-    </apply>
-
   </article>
 </apply>
