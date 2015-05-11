@@ -12,19 +12,16 @@
     <div class="content">
       <header>
         <a href="/">
-          <img src="/static/images/header.jpg" alt="Andrew Lorente" class="header-image">
+          <img src="/static/images/header.jpg" alt="A Wood Duck" class="header-image">
           <h1>
-            Andrew Lorente
+            Erin Call
           </h1>
-          <h2>
-            Making Software and Things
-          </h2>
         </a>
         <p>
-          <a href="https://twitter.com/andrewlorente" title="twitter"><i class="fa fa-twitter fa-lg"></i></a>
-          <a href="https://github.com/andrewlorente" title="github"><i class="fa fa-github fa-lg"></i></a>
+          <a href="https://twitter.com/erincall" title="twitter"><i class="fa fa-twitter fa-lg"></i></a>
+          <a href="https://github.com/erincall" title="github"><i class="fa fa-github fa-lg"></i></a>
           <a href="https://stackoverflow.com/users/1308699/andrew-lorente" title="StackOverflow"><i class="fa fa-stack-overflow fa-lg"></i></a>
-          <a href="mailto:hello@andrewlorente.com" title="email"><i class="fa fa-envelope fa-lg"></i></a>
+          <a href="mailto:hello@erincall.com" title="email"><i class="fa fa-envelope fa-lg"></i></a>
         </p>
       </header>
 
@@ -34,7 +31,7 @@
 
     <footer>
       <div>
-        Site by Andrew Lorente, of course. All content is <a href="https://creativecommons.org/licenses/by-sa/4.0/">licensed Creative Commons Share-Alike.</a>
+        Site by Erin Call, of course. All content is <a href="https://creativecommons.org/licenses/by-sa/4.0/">licensed Creative Commons Share-Alike.</a>
         <a href="http://validator.w3.org/check?uri=${currentPath}"><i class="fa fa-html5"></i></a>
       </div>
     </footer>

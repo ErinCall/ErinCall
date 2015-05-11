@@ -28,7 +28,7 @@ routes = [ ("/resume",                    page "resume")
          , ("/small_languages",           page "small_languages")
          , ("/secrets_in_source_control", page "secrets_in_source_control")
          , ("/pgp",                       page "pgp")
-         , ("/learning_rust",             page "learning_rust")
+         , ("/about_transgender",         page "about_transgender")
          , ("/robots.txt",                serveFile "static/robots.txt")
          , ("/",                          ifTop $ page "index")
          , ("/static",                    serveDirectory "static")
@@ -37,7 +37,7 @@ routes = [ ("/resume",                    page "resume")
 ------------------------------------------------------------------------------
 -- | The application initializer.
 app :: SnapletInit App App
-app = makeSnaplet "andrewlorente" "My wubsite" Nothing $ do
+app = makeSnaplet "erincall" "My wubsite" Nothing $ do
     let config = mempty {
         hcInterpretedSplices = do
             "currentPath" ## currentPath

@@ -1,5 +1,5 @@
 <apply template="base">
-  <bind tag="page-title">Making Software And Things</bind>
+  <bind tag="page-title">Erin Call</bind>
   <article class="container-fluid">
     <div class="col-xs-12">
       <h3>
@@ -12,7 +12,7 @@
       <bind tag="description">
         A blog where I write about things you might find interesting.
       </bind>
-      <bind tag="link">http://blog.andrewlorente.com</bind>
+      <bind tag="link">http://blog.erincall.com</bind>
     </apply>
 
     <apply template="project">
@@ -36,7 +36,7 @@
       <bind tag="description">
         An index of the source code for my software projects, including this website.
       </bind>
-      <bind tag="link">https://git.andrewlorente.com</bind>
+      <bind tag="link">https://git.erincall.com</bind>
     </apply>
 
     <apply template="project">
@@ -52,7 +52,7 @@
       <bind tag="description">
         My photo-management tool. Something of a work-in-progress.
       </bind>
-      <bind tag="link">http://catsnap.andrewlorente.com</bind>
+      <bind tag="link">http://catsnap.erincall.com</bind>
     </apply>
 
     <apply template="project">
@@ -71,13 +71,11 @@
       <bind tag="link">/pgp</bind>
     </apply>
 
-    <apply template="project">
-      <bind tag="name">Learning Rust</bind>
-      <bind tag="description">
-        Some friends and I are studying Rust. Join us!
-      </bind>
-      <bind tag="link">/learning_rust</bind>
-    </apply>
+  </article>
 
+  <article class="container-fluid">
+    <p class="col-xs-12 side-note">
+      I am transgender, and was previously named Andrew Lorente. <a href="/about_transgender">(More about this)</a>
+    </p>
   </article>
 </apply>

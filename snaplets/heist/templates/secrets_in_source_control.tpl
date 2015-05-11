@@ -9,7 +9,7 @@
             height="281"
             allowfullscreen
     ></iframe>
-    <p>This talk expands on the ideas I <a href="https://blog.andrewlorente.com/p/using-pgp-to-encrypt-the-ansible-vault">wrote about in a blog post</a> some time earlier. In short, I think layering asymmetric GPG encryption on top of Ansible's symmetcric AES encryption eases some usability problems with the raw Vault.</p>
+    <p>This talk expands on the ideas I <a href="https://blog.erincall.com/p/using-pgp-to-encrypt-the-ansible-vault">wrote about in a blog post</a> some time earlier. In short, I think layering asymmetric GPG encryption on top of Ansible's symmetcric AES encryption eases some usability problems with the raw Vault.</p>
 
   </article>
 </apply>
