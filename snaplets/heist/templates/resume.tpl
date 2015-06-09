@@ -8,13 +8,23 @@
       <p>I am a skilled teacher and veteran developer in web technologies. I love to see students learn and grow, and to guide their "first steps into a larger world."</p>
 
       <h3>SKILLSET</h3>
-      <p>I have extensive experience in server-side web development. I've developed professionally in server-side Python, Ruby, and Haskell, along with client-side JavaScript. I love git, test-driven development, and reproducible configurations.</p>
+      <p>I have extensive experience in server-side web development. I've developed professionally in server-side Python, Ruby, and Haskell, along with client-side JavaScript. I love git, test-driven development, and documentation.</p>
+
+      <h4>Technologies</h4>
+      <ul>
+        <li>I've used an array of web frameworks, from the full-featured (Rails, Django) to the lightweight (Mason, Flask, Snap, Node).</li>
+        <li>In the browser, I'm familiar with JQuery and Underscore/LoDash; I can work without them as well.</li>
+        <li>My database of choice is Postgresql, but I've used Redis for caching and queueing and Zookeeper for live configuration.</li>
+        <li>I've worked extensively with AWS services, particularly S3, EC2, Cloudfront, SES, and Route53.</li>
+        <li>One of the first things I look for when learning a new language is a test framework. To that end, I've used Ruby's Rspec, Mocha, and Minitest, Python's Nosetools and Mock, and Haskell's HUnit and Quickcheck.</li>
+        <li>I provision my servers with configuration tools like Vagrant and Ansible, and deployment tools like Fabric and Capistrano.</li>
+      </ul>
 
       <h3>TEACHING EXPERIENCE</h3>
 
       <h4>Portland Code School</h4>
       <h5>Lead JavaScript Immersion Instructor, December 2014&#8212;present</h5>
-      <p>As the lead instructor in PCS's JavaScript Immersion class, I teach a cohort of a dozen students with varying backgrounds. I teach both server- and client-side programming, with and without frameworks like Express, JQuery, and Angular.
+      <p>As the lead instructor in PCS's JavaScript Immersion class, I teach cohorts of a dozen students with varying backgrounds. I teach both server- and client-side programming, with and without frameworks like Express, JQuery, and Angular.
 
       <h3>DEVELOPMENT EXPERIENCE</h3>
 
