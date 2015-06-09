@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <feed xml:lang="en-US" xmlns="http://www.w3.org/2005/Atom">
-  <id>tag:blog.andrewlorente.com,2008:/posts</id>
+  <id>tag:blog.erincall.com,2008:/posts</id>
   <link rel="alternate" type="text/html" href="http://blog.erincall.com/"/>
   <link rel="self" type="application/atom+xml" href="http://blog.erincall.com/posts.atom"/>
   <title>Fly Casual</title>
