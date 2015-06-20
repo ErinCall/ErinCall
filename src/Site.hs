@@ -9,8 +9,9 @@ module Site
   ) where
 
 ------------------------------------------------------------------------------
+import           Control.Lens (set)
 import           Data.ByteString (ByteString)
-import           Data.Monoid
+import qualified Data.ByteString as B
 import           Snap.Core
 import           Snap.Snaplet
 import           Snap.Snaplet.Heist.Interpreted
@@ -19,6 +20,12 @@ import           Snap.Util.FileServe
 ------------------------------------------------------------------------------
 import           Application
 import           Splices
+
+heistConfig :: SpliceConfig (Handler App App)
+heistConfig =
+  set scInterpretedSplices ("currentPath" ## currentPath) $
+  set scInterpretedSplices defaultInterpretedSplices $
+  mempty
 
 page :: ByteString -> Handler App App ()
 page template = method GET $ render template
@@ -38,12 +45,8 @@ routes = [ ("/resume",                    page "resume")
 -- | The application initializer.
 app :: SnapletInit App App
 app = makeSnaplet "erincall" "My wubsite" Nothing $ do
-    let config = mempty {
-        hcInterpretedSplices = do
-            "currentPath" ## currentPath
-      }
     h <- nestSnaplet "heist" heist $ heistInit "templates"
-    addConfig h config
+    addConfig h heistConfig
     addRoutes routes
     return $ App h
 

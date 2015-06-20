@@ -14,39 +14,28 @@ Flag development
   Description: Whether to build the server in development (interpreted) mode
   Default: False
 
-Flag old-base
-  default: False
-  manual: False
-
 Executable erincall
   hs-source-dirs: src
   main-is: Main.hs
 
   Build-depends:
+    either,
     bytestring                >= 0.9.1   && < 0.11,
-    haskell-bcrypt            >= 0.3     && < 0.4,
-    heist                     >= 0.13    && < 0.14,
+    heist,
     MonadCatchIO-transformers >= 0.2.1   && < 0.4,
     mtl                       >= 2       && < 3,
-    snap                      >= 0.13    && < 0.14,
-    snap-core                 >= 0.9     && < 0.11,
-    snap-extras               >= 0.7     && < 0.8,
-    snap-server               >= 0.9     && < 0.11,
-    snap-loader-static        >= 0.9     && < 0.10,
-    text                      >= 0.11    && < 1.2,
-    time                      >= 1.1     && < 1.5,
+    snap,
+    snap-core,
+    snap-extras,
+    snap-server,
+    snap-loader-static,
+    text,
+    time,
     xmlhtml                   >= 0.1,
-    xhtml-combinators         >= 0.2     && < 0.3,
-    transformers              >= 0.3
-
-  if flag(old-base)
-    build-depends:
-      base                      >= 4        && < 4.4,
-      lens                      >= 3.7.6    && < 3.8
-  else
-    build-depends:
-      base                      >= 4.4      && < 5,
-      lens                      >= 3.7.6    && < 4.1
+    xhtml-combinators,
+    transformers              >= 0.3,
+    base                      >= 4.4      && < 5,
+    lens
 
   if flag(development)
     build-depends:
