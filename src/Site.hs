@@ -10,6 +10,7 @@ module Site
 
 ------------------------------------------------------------------------------
 import           Data.ByteString (ByteString)
+import qualified Data.ByteString as B
 import           Data.Monoid
 import           Snap.Core
 import           Snap.Snaplet
