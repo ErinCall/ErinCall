@@ -38,5 +38,6 @@
     <script src="/static/js/jquery-2.1.0.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
     <script src="/static/js/site.js"></script>
+
   </body>
 </html>

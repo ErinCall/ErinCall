@@ -29,6 +29,7 @@ routes = [ page "resume"
          , page "secrets_in_source_control"
          , page "pgp"
          , page "about_transgender"
+         , page "frustrate_them_for_a_lifetime"
          , ("/robots.txt", serveFile "static/robots.txt")
          , ("/",           ifTop $ method GET $ render "index")
          , ("/static",     serveDirectory "static")

@@ -16,6 +16,14 @@
     </apply>
 
     <apply template="project">
+      <bind tag="name">Frustrate Them For A Lifetime</bind>
+      <bind tag="description">
+        A presentation I gave at PDXPython, on mentoring newcomers
+      </bind>
+      <bind tag="link">/frustrate_them_for_a_lifetime</bind>
+    </apply>
+
+    <apply template="project">
       <bind tag="name">Secrets In Source Control</bind>
       <bind tag="description">
         A presentation I gave at the Portland Ansible Meetup, on using the Ansible Vault.
