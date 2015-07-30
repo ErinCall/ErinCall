@@ -44,7 +44,7 @@
       <bind tag="description">
         An index of the source code for my software projects, including this website.
       </bind>
-      <bind tag="link">https://git.erincall.com</bind>
+      <bind tag="link">https://git.erincall.com/public</bind>
     </apply>
 
     <apply template="project">
