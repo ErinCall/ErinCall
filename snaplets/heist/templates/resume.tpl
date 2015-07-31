@@ -5,7 +5,7 @@
     <div>
       <h5>hello@erincall.com • 503.508.4419</h5>
 
-      <p>I am a skilled teacher and veteran developer in web technologies. I love to see students learn and grow, and to guide their "first steps into a larger world."</p>
+      <p>I am a veteran developer in web technologies. I'm particularly good at automating my work away so I have time to make systems more paranoid and reliable.</p>
 
       <h3>SKILLSET</h3>
       <p>I have extensive experience in server-side web development. I've developed professionally in server-side Python, Ruby, and Haskell, along with client-side JavaScript. I love git, test-driven development, and documentation.</p>
@@ -16,7 +16,7 @@
         <li>In the browser, I'm familiar with JQuery and Underscore/LoDash; I can work without them as well.</li>
         <li>My database of choice is Postgresql, but I've used Redis for caching and queueing and Zookeeper for live configuration.</li>
         <li>I've worked extensively with AWS services, particularly S3, EC2, Cloudfront, SES, and Route53.</li>
-        <li>One of the first things I look for when learning a new language is a test framework. To that end, I've used Ruby's Rspec, Mocha, and Minitest, Python's Nosetools and Mock, and Haskell's HUnit and Quickcheck.</li>
+        <li>One of the first things I look for when learning a new language is a test framework. To that end, I've used Ruby's Rspec, Mocha, and Minitest, Python's Nosetools and Mock, JavaScript's Jasmine, Mocha, and Chai, and Haskell's HUnit and Quickcheck.</li>
         <li>I provision my servers with configuration tools like Vagrant and Ansible, and deployment tools like Fabric and Capistrano.</li>
       </ul>
 
@@ -67,13 +67,14 @@
       <h5>Technical lead, October 2013&#8212;December 2014</h5>
       <p>In addition to my mentor work, I led a small team of volunteer developers in writing the new Code Scouts member website.</p>
 
-      <h3>OPEN-SOURCE PROJECTS</h3>
-      <p>I've written several open-source projects in my free time:</p>
+      <h3>OPEN-SOURCE WORK</h3>
+      <p>I've written several open-source projects in my free time. Two of the most interesting:</p>
       <ul>
         <li><a href="https://catsnap.erincall.com">Catsnap</a> is a Python/Flask webapp for simple, self-hosted image sharing. <span class="source">[<a href="https://git.erincall.com/ErinCall/Catsnap/tree/master">source</a>]</span></li>
-        <li><a href="https://blog.erincall.com">My blog</a> is powered by Bloge, a lightweight engine written in Haskell/Snap. <span class="source">[<a href="https://git.erincall.com/ErinCall/Bloge/tree/master">source</a>]</span></li>
         <li><a href="http://www.radlibs.info">Radlibs</a> is a silly game for generating whimsical English text, also written in Python. It has an IRC-bot-pluggable API client written in JavaScript. <span class="source">[<a href="https://git.erincall.com/ErinCall/radlibs/tree/master">source</a>]</span></li>
       </ul>
+
+      <p>I've also contributed code to several open-source projects, including <a href="https://github.com/EFForg/https-everywhere/">https-everywhere</a>, <a href="https://github.com/clarkgrubb/hyperpolyglot/">hyperpolyglot</a>, and <a href="https://github.com/dhutty/puppet-nginx">puppet-nginx</a>.</p>
 
       <h3>EDUCATION</h3>
       <h4>Bachelor of Arts, Computer Science</h4>
