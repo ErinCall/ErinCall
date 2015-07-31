@@ -78,7 +78,7 @@
 
       <h3>EDUCATION</h3>
       <h4>Bachelor of Arts, Computer Science</h4>
-      <h5>Willamette University, 2007</h5>
+      <h5>Willamette University, 2006</h5>
     </div>
   </article>
 </apply>
