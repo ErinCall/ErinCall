@@ -3,7 +3,7 @@
   <article class="container-fluid">
     <h3>Erin Call</h3>
     <div>
-      <h5>hello@erincall.com • 915A NE Roselawn St. Portland Oregon 97211 • 503.508.4419</h5>
+      <h5>hello@erincall.com • 503.508.4419</h5>
 
       <p>I am a skilled teacher and veteran developer in web technologies. I love to see students learn and grow, and to guide their "first steps into a larger world."</p>
 
