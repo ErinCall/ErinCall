@@ -20,7 +20,7 @@
         <p>
           <a href="https://twitter.com/erincalling" title="twitter"><i class="fa fa-twitter fa-lg"></i></a>
           <a href="https://github.com/erincall" title="github"><i class="fa fa-github fa-lg"></i></a>
-          <a href="https://stackoverflow.com/users/1308699/andrew-lorente" title="StackOverflow"><i class="fa fa-stack-overflow fa-lg"></i></a>
+          <a href="https://stackoverflow.com/users/1308699/erin-call" title="StackOverflow"><i class="fa fa-stack-overflow fa-lg"></i></a>
           <a href="mailto:hello@erincall.com" title="email"><i class="fa fa-envelope fa-lg"></i></a>
         </p>
       </header>
