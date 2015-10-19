@@ -23,7 +23,7 @@
       <h3>TEACHING EXPERIENCE</h3>
 
       <h4>Portland Code School</h4>
-      <h5>Lead JavaScript Immersion Instructor, December 2014&#8212;present</h5>
+      <h5>Lead JavaScript Immersion Instructor, December 2014&#8212;August 2015</h5>
       <p>As the lead instructor in PCS's JavaScript Immersion class, I teach cohorts of a dozen students with varying backgrounds. I teach both server- and client-side programming, with and without frameworks like Express, JQuery, and Angular.
 
       <h3>DEVELOPMENT EXPERIENCE</h3>
