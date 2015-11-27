@@ -70,8 +70,8 @@
       <h3>OPEN-SOURCE WORK</h3>
       <p>I've written several open-source projects in my free time. Two of the most interesting:</p>
       <ul>
-        <li><a href="https://catsnap.erincall.com">Catsnap</a> is a Python/Flask webapp for simple, self-hosted image sharing. <span class="source">[<a href="https://git.erincall.com/ErinCall/Catsnap/tree/master">source</a>]</span></li>
-        <li><a href="http://www.radlibs.info">Radlibs</a> is a silly game for generating whimsical English text, also written in Python. It has an IRC-bot-pluggable API client written in JavaScript. <span class="source">[<a href="https://git.erincall.com/ErinCall/radlibs/tree/master">source</a>]</span></li>
+        <li><a href="https://catsnap.erincall.com">Catsnap</a> is a Python/Flask webapp for simple, self-hosted image sharing. <span class="source">[<a href="https://github.com/ErinCall/Catsnap/tree/master">source</a>]</span></li>
+        <li><a href="http://www.radlibs.info">Radlibs</a> is a silly game for generating whimsical English text, also written in Python. It has an IRC-bot-pluggable API client written in JavaScript. <span class="source">[<a href="https://github.com/ErinCall/radlibs/tree/master">source</a>]</span></li>
       </ul>
 
       <p>I've also contributed code to several open-source projects, including <a href="https://github.com/EFForg/https-everywhere/">https-everywhere</a>, <a href="https://github.com/clarkgrubb/hyperpolyglot/">hyperpolyglot</a>, and <a href="https://github.com/dhutty/puppet-nginx">puppet-nginx</a>.</p>

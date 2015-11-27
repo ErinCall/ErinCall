@@ -40,11 +40,11 @@
     </apply>
 
     <apply template="project">
-      <bind tag="name">Gitlab</bind>
+      <bind tag="name">GitHub</bind>
       <bind tag="description">
-        An index of the source code for my software projects, including this website.
+        The source code for my software projects, including this website.
       </bind>
-      <bind tag="link">https://git.erincall.com/public</bind>
+      <bind tag="link">https://github.com/ErinCall/</bind>
     </apply>
 
     <apply template="project">

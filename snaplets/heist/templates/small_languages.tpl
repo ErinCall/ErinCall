@@ -9,6 +9,6 @@
             allowfullscreen
     ></iframe>
     <p>I'm sorry about the way the video cuts out in the midst of the Q&amp;A. My camera apparently only records 25 minutes of video at one go. I'm told this is more about tariff categories than technological limits, which is frustrating.</p>
-    <p>If you're interested in learning more about the parser-generator libraries available in python, I prepared some <a href="https://git.erincall.com/ErinCall/parser-demos">supplemental material</a> that you might find interesting.</p>
+    <p>If you're interested in learning more about the parser-generator libraries available in python, I prepared some <a href="https://github.com/ErinCall/parser-demos">supplemental material</a> that you might find interesting.</p>
   </article>
 </apply>
