@@ -18,7 +18,7 @@
         <li>I really appreciate your support! Even small things, like using the correct name or pronoun, make a flower bloom in my heart.</li>
     </ul>
     <p>
-        If you want more information, Basic Rights Oregon has published a pair of excellent PDFs: <a href="http://www.basicrights.org/wp-content/uploads/2015/04/How-to-be-a-great-trans-ally.pdf">How To Be A Great Trans Ally</a> and <a href="http://www.basicrights.org/wp-content/uploads/2015/04/Handout_Awkward-Trans-Ally-Moves_Moving-Into-Action1.pdf">Awkward Trans Ally Moves</a>.
+        If you want more information, Basic Rights Oregon has published a pair of excellent PDFs: <a href="https://web.archive.org/web/20150905100156/http://www.basicrights.org/wp-content/uploads/2015/04/How-to-be-a-great-trans-ally.pdf">How To Be A Great Trans Ally</a> and <a href="https://web.archive.org/web/20150906055237/http://www.basicrights.org/wp-content/uploads/2015/04/Handout_Awkward-Trans-Ally-Moves_Moving-Into-Action1.pdf">Awkward Trans Ally Moves</a>.
     </p>
   </article>
 </apply>
