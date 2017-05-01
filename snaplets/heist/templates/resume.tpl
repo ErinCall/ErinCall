@@ -28,6 +28,15 @@
 
       <h3>DEVELOPMENT EXPERIENCE</h3>
 
+      <h4>GitHub</h4>
+      <h5>Developer, November 2015&#8212;April 2017</h5>
+      <p>As a developer on the Developer Experience team, I worked closely with other GitHub employees to build and maintain our deployment, monitoring, and continuous integration infrastructure.</p>
+      <h4>Particular accomplishments</h4>
+      <ul>
+        <li>Designed and developed a distributed high-availability system for our systems-control chatbot.</li>
+        <li>Wrote and presented a guide for new-employee orientations, explaining our monitoring and alerting system.</li>
+      </ul>
+
       <h4>Janrain</h4>
       <h5>Developer, September 2012&#8212;October 2014</h5>
       <p>As a developer on Janrain's Capture team, I was responsible for expansion and maintenance of our user-management system. I worked in Ruby On Rails and Haskell Snap to provide an extremely-high-availability web service.</p>
