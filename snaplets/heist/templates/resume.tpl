@@ -20,12 +20,6 @@
         <li>I provision my servers with configuration tools like Vagrant and Ansible, and deployment tools like Fabric and Capistrano.</li>
       </ul>
 
-      <h3>TEACHING EXPERIENCE</h3>
-
-      <h4>Portland Code School</h4>
-      <h5>Lead JavaScript Immersion Instructor, December 2014&#8212;August 2015</h5>
-      <p>As the lead instructor in PCS's JavaScript Immersion class, I taught cohorts of a dozen students with varying backgrounds. I taught both server- and client-side programming, with and without frameworks like Express, JQuery, and Angular.
-
       <h3>DEVELOPMENT EXPERIENCE</h3>
 
       <h4>GitHub</h4>
@@ -68,6 +62,12 @@
         <li>Developed custom PostgreSQL aggregates, allowing granular scrutiny of enormous amounts of data while conserving disk space.</li>
         <li>Developed a system for projecting users&#8217; future usage patterns.</li>
       </ul>
+
+      <h3>TEACHING EXPERIENCE</h3>
+
+      <h4>Portland Code School</h4>
+      <h5>Lead JavaScript Immersion Instructor, December 2014&#8212;August 2015</h5>
+      <p>As the lead instructor in PCS's JavaScript Immersion class, I taught cohorts of a dozen students with varying backgrounds. I taught both server- and client-side programming, with and without frameworks like Express, JQuery, and Angular.
 
       <h3>VOLUNTEER WORK</h3>
       <h4>Code Scouts</h4>
