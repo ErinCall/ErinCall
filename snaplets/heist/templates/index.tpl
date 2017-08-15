@@ -48,14 +48,6 @@
     </apply>
 
     <apply template="project">
-      <bind tag="name">Radlibs</bind>
-      <bind tag="description">
-        A ridiculous recursive-text-substitution engine.
-      </bind>
-      <bind tag="link">http://www.radlibs.info</bind>
-    </apply>
-
-    <apply template="project">
       <bind tag="name">Catsnap</bind>
       <bind tag="description">
         My photo-management tool. Something of a work-in-progress.
