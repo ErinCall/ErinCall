@@ -12,9 +12,9 @@
 
       <h4>Technologies</h4>
       <ul>
-        <li>I've used an array of web frameworks, from the full-featured (Rails, Django) to the lightweight (Mason, Flask, Snap, Node).</li>
+        <li>I've used an array of web frameworks, from the full-featured (Rails, Django) to the lightweight (Flask, Express, Snap).</li>
         <li>In the browser, I'm familiar with JQuery and Underscore/LoDash; I can work without them as well.</li>
-        <li>My database of choice is Postgresql, but I've used Redis for caching and queueing and Zookeeper for live configuration.</li>
+        <li>My database of choice is Postgresql, but I've worked with several others, including MySQL, Redis, and Mongo.</li>
         <li>I've worked extensively with AWS services, particularly S3, EC2, Cloudfront, SES, and Route53.</li>
         <li>One of the first things I look for when learning a new language is a test framework. To that end, I've used Ruby's Rspec, Mocha, and Minitest, Python's Nosetools and Mock, JavaScript's Jasmine, Mocha, and Chai, and Haskell's HUnit and Quickcheck.</li>
         <li>I provision my servers with configuration tools like Vagrant and Ansible, and deployment tools like Fabric and Capistrano.</li>
