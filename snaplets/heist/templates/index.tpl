@@ -8,14 +8,6 @@
     </div>
 
     <apply template="project">
-      <bind tag="name">Blog</bind>
-      <bind tag="description">
-        A blog where I write about things you might find interesting.
-      </bind>
-      <bind tag="link">http://blog.erincall.com</bind>
-    </apply>
-
-    <apply template="project">
       <bind tag="name">Frustrate Them For A Lifetime</bind>
       <bind tag="description">
         A presentation I gave at PDXPython, on mentoring newcomers
