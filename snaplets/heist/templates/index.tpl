@@ -56,10 +56,4 @@
     </apply>
 
   </article>
-
-  <article class="container-fluid">
-    <p class="col-xs-12 side-note">
-      I am transgender, and was previously named Andrew Lorente. <a href="/about_transgender">(More about this)</a>
-    </p>
-  </article>
 </apply>
