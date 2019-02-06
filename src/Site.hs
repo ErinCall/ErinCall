@@ -25,8 +25,7 @@ page :: ByteString -> (ByteString, Handler App App ())
 page name = (B.concat ["/", name], method GET $ render name)
 
 routes :: [(ByteString, Handler App App ())]
-routes = [ page "resume"
-         , page "small_languages"
+routes = [ page "small_languages"
          , page "secrets_in_source_control"
          , page "pgp"
          , page "frustrate_them_for_a_lifetime"

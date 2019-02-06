@@ -40,14 +40,6 @@
     </apply>
 
     <apply template="project">
-      <bind tag="name">Resume</bind>
-      <bind tag="description">
-        My professional history. Particularly interesting if you're looking to hire someone.
-      </bind>
-      <bind tag="link">/resume</bind>
-    </apply>
-
-    <apply template="project">
       <bind tag="name">PGP Key</bind>
       <bind tag="description">
         A public PGP key you can use to tell me secrets (or just play spies).
