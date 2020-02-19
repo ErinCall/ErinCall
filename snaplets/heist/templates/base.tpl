@@ -18,7 +18,6 @@
           </h1>
         </a>
         <p>
-          <a href="https://twitter.com/erincalling" title="twitter"><i class="fa fa-twitter fa-lg"></i></a>
           <a href="https://github.com/erincall" title="github"><i class="fa fa-github fa-lg"></i></a>
           <a href="https://stackoverflow.com/users/1308699/erin-call" title="StackOverflow"><i class="fa fa-stack-overflow fa-lg"></i></a>
           <a href="mailto:hello@erincall.com" title="email"><i class="fa fa-envelope fa-lg"></i></a>
@@ -37,7 +36,6 @@
     </footer>
     <script src="/static/js/jquery-2.1.0.min.js"></script>
     <script src="/static/js/bootstrap.min.js"></script>
-    <script src="/static/js/site.js"></script>
 
   </body>
 </html>

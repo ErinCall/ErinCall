@@ -21,15 +21,8 @@ import           Snap.Util.FileServe
 import           Application
 import           Splices
 
-page :: ByteString -> (ByteString, Handler App App ())
-page name = (B.concat ["/", name], method GET $ render name)
-
 routes :: [(ByteString, Handler App App ())]
-routes = [ page "small_languages"
-         , page "secrets_in_source_control"
-         , page "pgp"
-         , page "frustrate_them_for_a_lifetime"
-         , ("/robots.txt", serveFile "static/robots.txt")
+routes = [ ("/robots.txt", serveFile "static/robots.txt")
          , ("/",           ifTop $ method GET $ render "index")
          , ("/static",     serveDirectory "static")
          ]
